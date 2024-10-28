@@ -1,5 +1,13 @@
 # Ihre QUADRIGA OER
 
+```{figure} /assets/landing/bild11.png
+---
+align: left
+width: 100%
+---
+bild 11
+```
+
 Diese Vorlage dient der Entwicklung von QUADRIGA OERs. Sie zeigt die Möglichkeiten der Jupyter Book Platform und unsere Empfehlungen, wie sie für die Entwicklung Ihrer OER genutzt werden sollten.
 
 Wenn Sie mehr zu Jupyter Book erfahren wollen, nutzen die [Dokumentation von Juypter Book](https://jupyterbook.org).
@@ -15,6 +23,13 @@ Jupyter Book kann Jupyter Notebooks als Dokumenttyp einlesen und verarbeiten. W�
 Jupyter Book basiert auf dem Programm [Sphinx](https://www.sphinx-doc.org/en/master/), welches für die Generierung von Dokumentationen (hauptsächlich im Bereich der Programmierung) entwickelt wurde.
 
 ## Nutzung des Templates
+```{figure} /assets/landing/bild2.png
+---
+align: left
+width: 100%
+---
+bild 2
+```
 
 ## Inhaltsverzeichnis
 
