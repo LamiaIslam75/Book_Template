@@ -12,17 +12,37 @@
 
 /* Exercise/Übung styling */
 div.exercise {
-    background-color: #e8f5e9 !important;
-    border-left-color: #66bb6a !important;
+    background-color: #f7fbff !important;
+    border-left-color: #7baac7 !important;
 }
 
 div.exercise > .admonition-title {
-    background-color: rgba(102, 187, 106, 0.1) !important;
-    color: #43a047 !important;
+    background-color: rgba(66, 165, 245, 0.1) !important;
+    color: #4a90c9 !important;
 }
 
 div.exercise > .admonition-title::after {
     content: "\f44b" !important;
+    float: left !important;
+    padding-right: 0.5rem !important;
+    font-size: 1 em !important;
+    color: #4a90c9 !important;
+}
+
+
+/* Solution/Lösung styling */
+div.solution {
+    background-color: #e8f5e931 !important;
+    border-left-color: #66bb6a !important;
+}
+
+div.solution > .admonition-title {
+    background-color: rgba(102, 187, 106, 0.1) !important;
+    color: #43a047 !important;
+}
+
+div.solution > .admonition-title::after {
+    content: "👁️" !important;
     font-family: "Font Awesome 5 Free" !important;
     float: left !important;
     padding-right: 0.5rem !important;
@@ -30,53 +50,34 @@ div.exercise > .admonition-title::after {
     color: #43a047 !important;
 }
 
-/* Solution/Lösung styling */
-div.solution {
-    background-color: #f1f8e9 !important;
-    border-left-color: #15dd00 !important;
+/* keypoint styling */
+div.keypoint {
+    background-color: #fff6e026 !important;
+    border-left-color: #f2a541 !important;
 }
 
-div.solution > .admonition-title {
-    background-color: rgba(124, 179, 66, 0.1) !important;
-    color: #15dd00 !important;
-}
-
-div.solution > .admonition-title::after {
-    content: "👁️" !important;
-    float: left !important;
-    padding-right: 0.5rem !important;
-    font-size: 1em !important;
-    color: #15dd00 !important;
-}
-
-/* Lernziele styling */
-div.lernziele {
-    background-color: #fff3e0 !important;
-    border-left-color: #fb8c00 !important;
-}
-
-div.lernziele > .admonition-title {
+div.keypoint > .admonition-title {
     background-color: rgba(251, 140, 0, 0.1) !important;
-    color: #e65100 !important;
+    color: #f2a541 !important;
 }
 
-div.lernziele > .admonition-title::after {
-    content: "🎓" !important;  /* Unicode circled question mark */
+div.keypoint > .admonition-title::after {
+    content: "💡" !important;  /* Unicode circled question mark */
     float: left !important;
     padding-right: 0.5rem !important;
     font-size: 1em !important;
-    color: #e65100 !important;
+    color: #f2a541 !important;
 }
 
 /* Hinweis styling */
 div.hinweis {
-    background-color: #e3f2fd !important;
-    border-left-color: #42a5f5 !important;
+    background-color: #f0f8ff8d !important;
+    border-left-color: #6ca0d8ad !important;
 }
 
 div.hinweis > .admonition-title {
-    background-color: rgba(66, 165, 245, 0.1) !important;
-    color: #1e88e5 !important;
+    background-color: rgba(108, 160, 216, 0.1) !important;
+    color: #6ca0d8e3 !important;
 }
 
 div.hinweis > .admonition-title::after {
@@ -84,43 +85,43 @@ div.hinweis > .admonition-title::after {
     float: left !important;
     padding-right: 0.5rem !important;
     font-size: 1.2em !important;
-    color: #1e88e5 !important;
+    color: #6ca0d8ad !important;
 }
 
-/* Keypoints styling */
-div.keypoints {
-    background-color: #e0ebf5 !important;
+/* lernziele styling */
+div.lernziele {
+    background-color: #f7fbff !important;
     border-left-color: #00305e !important;
 }
 
-div.keypoints > .admonition-title {
+div.lernziele > .admonition-title {
     background-color: rgba(0, 48, 94, 0.1) !important;
     color: #00305e !important;
 }
 
-div.keypoints > .admonition-title::after {
-    content: "💡" !important;  /* Unicode circled exclamation mark */
+div.lernziele > .admonition-title::after {
+    content: "🎓" !important;  /* Unicode circled exclamation mark */
     float: left !important;
     padding-right: 0.5rem !important;
-    font-size: 1.2em !important;
+    font-size: 1 em !important;
     color: #00305e !important;
 }
 
 /* Caution styling */
 div.caution {
-    background-color: #ffebee !important;
-    border-left-color: #d32f2f !important;
+    background-color: #ffe6e61f !important;
+    border-left-color: #f08a8a !important;
 }
 
 div.caution > .admonition-title {
     background-color: rgba(211, 47, 47, 0.1) !important;
-    color: #c62828 !important;
+    color: #c85454 !important;
 }
 
 div.caution > .admonition-title::after {
     content: "⚠️" !important;
     float: left !important;
     padding-right: 0.5rem !important;
-    font-size: 1.2em !important;
-    color: #c62828 !important;
+    font-size: 1 em !important;
+    color: #c85454 !important;
 }

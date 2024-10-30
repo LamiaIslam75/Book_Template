@@ -1,43 +1,31 @@
 # Admonitions
 
-```{admonition} Übung: Aktivität
+```{admonition} Übung
 :class: exercise
-1. Gehen Sie auf die [Github-Seite des OER-Templates](https://github.com/quadriga-dk/Book_Template).
-2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
-3. Folgen Sie den Anweisungen um eine spezielle Kopie des Templates in Deinem Github-Account zu erstellen, die Fork genannt wird. 
+This is an admonition for highlighting Exercises. 
 ```
 
-```{admonition} Lösungen: Lösungen einer Übung
+```{admonition} Lösungen
 :class: solution
-1. Gehen Sie auf die [Github-Seite des OER-Templates](https://github.com/quadriga-dk/Book_Template).
-2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
-3. Folgen Sie den Anweisungen um eine spezielle Kopie des Templates in Deinem Github-Account zu erstellen, die Fork genannt wird. 
+This is an admonition for highlighting Solutions or answers of an exercise.
 ```
 
-```{admonition} Lernziele: Grob- und feinlernziele
+```{admonition} Lernziele
 :class: lernziele
-1. Gehen Sie auf die [Github-Seite des OER-Templates](https://github.com/quadriga-dk/Book_Template).
-2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
-3. Folgen Sie den Anweisungen um eine spezielle Kopie des Templates in Deinem Github-Account zu erstellen, die Fork genannt wird. 
+This is an admonition for highlighting Learning Objectives. 
 ```
 
 ```{admonition} Hinweis/ Empfehlung zusätzlicher Materialien 
 :class: hinweis
-1. Gehen Sie auf die [Github-Seite des OER-Templates](https://github.com/quadriga-dk/Book_Template).
-2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
-3. Folgen Sie den Anweisungen um eine spezielle Kopie des Templates in Deinem Github-Account zu erstellen, die Fork genannt wird. 
+This is an admonition for highlighting Hinweis. 
 ```
 
-```{admonition} Keypoints: Wichtige Punkte eines Kapitels
-:class: keypoints
-1. Gehen Sie auf die [Github-Seite des OER-Templates](https://github.com/quadriga-dk/Book_Template).
-2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
-3. Folgen Sie den Anweisungen um eine spezielle Kopie des Templates in Deinem Github-Account zu erstellen, die Fork genannt wird. 
+```{admonition} Keypoints
+:class: keypoint
+This is an admonition for highlighting Keypoints.
 ```
 
-```{admonition} Caution: eine Warnung
+```{admonition} Caution
 :class: caution
-1. Gehen Sie auf die [Github-Seite des OER-Templates](https://github.com/quadriga-dk/Book_Template).
-2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
-3. Folgen Sie den Anweisungen um eine spezielle Kopie des Templates in Deinem Github-Account zu erstellen, die Fork genannt wird. 
+This is an admonition for highlighting Caution.
 ```
